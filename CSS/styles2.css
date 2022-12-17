@@ -1,0 +1,475 @@
+*::-webkit-scrollbar {
+width: 15px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #24242c;
+}
+
+*::-webkit-scrollbar-thumb {
+background-color: #FFF;
+border-radius: 20px;
+border: 3px solid #24242c;
+}
+
+/*Definir fonte do site*/
+
+@font-face {
+font-family: "Hagrid-Medium";
+src: url("../fonts/Hagrid-medium.ttf") format("truetype");
+font-weight: Bold;
+font-style: normal;
+}
+@font-face {
+font-family: "Hagrid-Regular";
+src: url("../fonts/Hagrid-Regular.ttf") format("truetype");
+font-weight: normal;
+font-style: normal;
+}
+/*Definir configurações do body*/
+body {
+margin: 0;
+padding: 0;
+height: auto;
+
+
+}
+
+html{
+scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 600px) {
+/*Definir estilo das paginas dos projetos*/
+
+.topo-projetos{
+top:0;
+display: flex;
+flex-direction: column;
+background-color: #000047;
+}
+
+.topo-projetos img{
+width: 100%;
+max-width: 300px;
+margin: 32px;
+
+}
+/*Definir estilo do botão no header"voltar"*/
+
+.btn {
+cursor: pointer;
+position: absolute;
+top: 27px;
+right: 10px;
+-webkit-border-radius: 28;
+-moz-border-radius: 28;
+border-radius: 28px;
+font-family: "Hagrid-Medium", Helvetica;
+color: #22222d;
+font-size: 10px;
+color: #000047;
+border-color: #33B0A4;
+background: #33B0A4;
+padding: 6px 10px;
+text-decoration: none;
+}
+
+header .btn:hover {
+opacity: 0.8;
+background: #ffffff;
+border-color: #ffffff;
+text-decoration: none;
+color:#2e2c2c;
+}
+/*Definir estilo dos textos das paginas dos projetos*/
+.projeto-marca{
+display:flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 25px;
+}
+
+.projeto-marca h1{
+margin: 20px;
+color: #2e2c2c;
+font-family: "Hagrid-Medium", Helvetica;
+text-align: center;
+font-size: 50px;
+line-height: 70px;
+}
+
+.projeto-marca p{
+width: 50%;
+margin-top: 18px;
+font-family: "Hagrid-Regular", Helvetica;
+text-align: justify;
+font-size: 22px;
+}
+
+.projeto-marca img{
+width: 80%;
+margin:0 auto;
+display: flex;
+}
+.projeto-marca a{
+width: 100%;
+margin:0 auto;
+}
+.texto-final{
+display:flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 25px;    
+}
+.texto-final h1{
+color: #24242c;
+font-family: "Hagrid-Medium", Helvetica;
+text-align: center;
+font-size: 50px;
+margin-bottom: 20px;
+display: flex;
+align-items: center;
+
+
+}
+
+.texto-final p{
+color: #2e2c2c;
+font-family: "Hagrid-Regular", Helvetica;
+text-align: center;
+font-size: 30px;
+line-height: 30px;  
+margin-top: 5px;  
+}
+
+/*Definir estilo do botão no header"orçamento"*/
+
+.texto-final .btn-final{
+width:150px;
+right:40%;
+Left:30%;
+cursor: pointer;
+position: absolute;
+margin:0 auto;
+-webkit-border-radius: 28;
+-moz-border-radius: 28;
+border-radius: 28px;
+font-family: "Hagrid-Medium", Helvetica;
+color: #000047;
+border-color: #03c57d;
+background: #03c57d;
+font-size: 15px;
+padding: 10px 18px;
+text-decoration: none;
+}
+
+.texto-final .btn-final:hover {
+opacity: 0.8;
+background: #ffffff;
+border-color: #ffffff;
+text-decoration: none;
+color:#000047;
+}
+
+footer{
+margin-top: 10px;
+width:100%;
+height: 80px;
+background-color: #000047;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+align-content: center
+}
+
+footer a{
+margin: 12px auto;
+width: 200px;
+}
+footer img{
+width:100%;
+}
+    
+}
+@media only screen and (min-width: 600px) {
+/*Definir estilo das paginas dos projetos*/
+
+.topo-projetos{
+top:0;
+display: flex;
+flex-direction: column;
+background-color: #000047;
+}
+
+.topo-projetos img{
+width: 100%;
+max-width: 300px;
+margin: 32px;
+
+}
+/*Definir estilo do botão no header"voltar"*/
+
+.btn {
+cursor: pointer;
+position: absolute;
+top: 20px;
+right: 30px;
+-webkit-border-radius: 28;
+-moz-border-radius: 28;
+border-radius: 28px;
+font-family: "Hagrid-Medium", Helvetica;
+color: #000047;
+border-color: #33B0A4;
+background: #33B0A4;
+font-size: 20px;
+padding: 10px 15px;
+text-decoration: none;
+}
+
+header .btn:hover {
+opacity: 0.8;
+background: #ffffff;
+border-color: #ffffff;
+text-decoration: none;
+color:#000047;
+}
+/*Definir estilo dos textos das paginas dos projetos*/
+.projeto-marca{
+display:flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 25px;
+}
+
+.projeto-marca h1{
+margin: 60px;
+color: #000047;
+font-family: "Hagrid-Medium", Helvetica;
+text-align: center;
+font-size: 90px;
+line-height: 70px;
+}
+
+.projeto-marca p{
+width: 50%;
+margin-top: 18px;
+font-family: "Hagrid-Regular", Helvetica;
+text-align: justify;
+font-size: 22px;
+}
+
+.projeto-marca img{
+width: 70%;
+margin:0 auto;
+display: flex;
+}
+.projeto-marca a{
+width: 100%;
+margin:0 auto;
+}
+.texto-final{
+display:flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 25px;    
+}
+.texto-final h1{
+color: #2e2c2c;
+font-family: "Hagrid-Medium", Helvetica;
+text-align: center;
+font-size: 50px;
+margin-bottom: 20px;
+
+
+}
+
+.texto-final p{
+color: #03c57d;
+font-family: "Hagrid-Regular", Helvetica;
+text-align: center;
+font-size: 30px;
+line-height: 30px;  
+margin-top: 5px;  
+}
+
+/*Definir estilo do botão no header"orçamento"*/
+
+.texto-final .btn-final{
+
+right:42%;
+Left:42%;
+cursor: pointer;
+position: absolute;
+
+-webkit-border-radius: 28;
+-moz-border-radius: 28;
+border-radius: 28px;
+font-family: "Hagrid-Medium", Helvetica;
+color: #000047;
+border-color: #03c57d;
+background: #03c57d;
+font-size: 10px;
+padding: 10px 15px;
+text-decoration: none;
+}
+
+.texto-final .btn-final:hover {
+opacity: 0.8;
+background: #ffffff;
+border-color: #ffffff;
+text-decoration: none;
+color:#000047;
+}
+
+footer{
+margin-top: 10px;
+width:100%;
+height: 80px;
+background-color: #000047;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+align-content: center
+}
+
+footer a{
+margin: 12px auto;
+width: 300px;
+}
+footer img{
+width:100%;
+}
+
+}
+
+@media only screen and (min-width: 1280px) {
+/*Definir estilo das paginas dos projetos*/
+
+.topo-projetos{
+top:0;
+display: flex;
+flex-direction: column;
+background-color: #000047;
+}
+
+.topo-projetos img{
+width: 100%;
+max-width: 300px;
+margin: 32px;
+
+}
+
+
+
+/*Definir estilo do botão no header"voltar"*/
+
+.btn {
+cursor: pointer;
+position: absolute;
+top: 40px;
+right: 40px;
+-webkit-border-radius: 28;
+-moz-border-radius: 28;
+border-radius: 28px;
+font-family: "Hagrid-Medium", Helvetica;
+color: #000047;
+border-color: #33B0A4;
+background: #33B0A4;
+font-size: 20px;
+padding: 10px 15px;
+text-decoration: none;
+}
+
+header .btn:hover {
+opacity: 0.8;
+background: #ffffff;
+border-color: #ffffff;
+text-decoration: none;
+color:#2e2c2c;
+}
+/*Definir estilo dos textos das paginas dos projetos*/
+.projeto-marca{
+display:flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 25px;
+}
+
+.projeto-marca h1{
+margin: 60px;
+color: #2e2c2c;
+font-family: "Hagrid-Medium", Helvetica;
+text-align: center;
+font-size: 90px;
+line-height: 70px;
+}
+
+.projeto-marca p{
+width: 50%;
+margin-top: 18px;
+font-family: "Hagrid-Regular" Helvetica;
+text-align: justify;
+font-size: 22px;
+}
+.texto-final{
+display:flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 25px;    
+}
+
+.texto-final p{
+color: #000047;
+font-family: "Hagrid-Regular", Helvetica;
+text-align: center;
+font-size: 50px;
+line-height: 50px;  
+margin-top: 5px;  
+}
+
+/*Definir estilo do botão no header"orçamento"*/
+
+.texto-final .btn-final{
+
+right:42%;
+Left:42%;
+cursor: pointer;
+position: absolute;
+border-radius: 10px;
+font-family: "Hagrid-Medium", Helvetica;
+color: #000047;
+background: #03c57d;
+border-color: #03c57d;
+font-size: 20px;
+padding: 10px 15px;
+text-decoration: none;
+}
+
+.texto-final .btn-final:hover {
+    opacity: 0.8;
+    background: #ffffff;
+    border-color: #ffffff;
+    text-decoration: none;
+    color: #000047;
+}
+
+.rodape{
+margin-top: 30px;
+width:100%;
+height: 100px;
+background-color: #000047;
+}
+
+footer a{
+margin: 12px auto;
+width: 300px;
+}
+footer img{
+width:100%;
+}
+
+}
+
