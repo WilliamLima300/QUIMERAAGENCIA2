@@ -17,7 +17,7 @@ include("dados.php");
 <body>
     <header class="site-header">
         <a class="brand" href="index.php" aria-label="Quimera Agência, início">
-            <img src="images/Logo/logo_02.svg" alt="Quimera Agência">
+            <img src="images/Logo/logo_01.svg" alt="Quimera Agência">
         </a>
         <nav class="site-nav" aria-label="Navegação principal">
             <a href="#projetos">Projetos</a>
@@ -82,11 +82,11 @@ include("dados.php");
             </div>
             <div class="service-grid">
                 <article class="service-card reveal">
-                    <img src="images/Servicos/card_motion_470x322.png" alt="Motion design para marcas" loading="lazy">
+                    <img src="images/Servicos/icon_motion_design_400x400.png" alt="" loading="lazy">
                     <div><span>01</span><h3>Motion design</h3><p>Movimento que dá vida à sua mensagem.</p></div>
                 </article>
                 <article class="service-card reveal">
-                    <img src="images/Servicos/card_redes_sociais_470x322.png" alt="Conteúdo visual para redes sociais" loading="lazy">
+                    <img src="images/Servicos/icon_redes_sociais_400x400.png" alt="" loading="lazy">
                     <div><span>02</span><h3>Redes sociais</h3><p>Presença visual que cria conversa e conexão.</p></div>
                 </article>
             </div>
